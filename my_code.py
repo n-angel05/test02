@@ -1,3 +1,10 @@
+def counterMethod(idx):
+    ctr = 0
+    for i in idx:
+        ctr += int(idx[i]/2)
+
+    return ctr
+
 def main():
     idx = dict()
 
@@ -9,11 +16,10 @@ def main():
 
     print (idx)
 
-    ctr = 0
-    for i in idx:
-        ctr += int(idx[i]/2)
+    v = counterMethod(idx)
+    print (v)
 
-    print (ctr)
+
 
 if __name__ == "__main__":
 
