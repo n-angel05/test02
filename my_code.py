@@ -1,6 +1,4 @@
 def main():
-    n = 6
-    ar = [1, 2, 1, 2, 1, 3, 2]
     idx = dict()
 
     for i in ar:
@@ -18,5 +16,9 @@ def main():
     print (ctr)
 
 if __name__ == "__main__":
-    main()
+
+    n = 6
+    ar = [1, 2, 1, 2, 1, 3, 2]
+
+    main(n, ar)
 
